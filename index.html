@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ditto Box Counter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://archives.bulbagarden.net/media/upload/2/2b/Spr_3r_132.png" type="image/png">
+</head>
+
+<body>
+
+    <h1>Ditto Box Counter</h1>
+
+    <div class="counter-container">
+        <div class="counter-row">
+            <label>Total Box Count</label><br />
+            <div class="control-row">
+                <button id="decreaseFirst" class="button">-</button>
+                <input type="text" id="firstNumber" class="counter-box" value="0" />
+                <button id="increaseFirst" class="button">+</button>
+            </div>
+        </div>
+
+        <div class="counter-row">
+            <label>Recatch</label><br />
+            <div class="control-row">
+                <button id="decreaseSecond" class="button">-</button>
+                <input type="text" id="secondNumber" class="counter-box" value="0" />
+                <button id="increaseSecond" class="button">+</button>
+            </div>
+        </div>
+
+        <button id="resetButton" class="reset-button">Reset</button>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>
